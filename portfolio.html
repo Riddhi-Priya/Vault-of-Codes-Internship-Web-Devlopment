@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Editkaro.in</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">Editkaro.in</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h1 class="page-title">Our Work</h1>
+        <p class="page-subtitle">A showcase of our recent projects.</p>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="short-form">Short Form</button>
+            <button class="filter-btn" data-filter="gaming">Gaming</button>
+            <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+            <button class="filter-btn" data-filter="documentary">Documentary</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- Items will be placeholder images. Replace src with your assets. -->
+            <div class="portfolio-item" data-category="short-form">
+                <img src="https://picsum.photos/500/300?random=1" alt="Short Form Video">
+                <div class="overlay">
+                    <h3>Viral TikTok Edit</h3>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="gaming">
+                <img src="https://picsum.photos/500/300?random=2" alt="Gaming Video">
+                <div class="overlay">
+                    <h3>Gaming Montage</h3>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ecommerce">
+                <img src="https://picsum.photos/500/300?random=3" alt="eCommerce Ad">
+                <div class="overlay">
+                    <h3>Product Ad</h3>
+                </div>
+            </div>
+            <div classs="portfolio-item" data-category="documentary">
+                <img src="https://picsum.photos/500/300?random=4" alt="Documentary Style">
+                <div class="overlay">
+                    <h3>Brand Story</h3>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="short-form">
+                <img src="https://picsum.photos/500/300?random=5" alt="Short Form Video">
+                <div class="overlay">
+                    <h3>Instagram Reel</h3>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="gaming">
+                <img src="https://picsum.photos/500/300?random=6" alt="Gaming Video">
+                <div class="overlay">
+                    <h3>Twitch Highlights</h3>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ecommerce">
+                <img src="https://picsum.photos/500/300?random=7" alt="eCommerce Ad">
+                <div class="overlay">
+                    <h3>Fashion Promo</h3>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="short-form">
+                <img src="https://picsum.photos/500/300?random=8" alt="Short Form Video">
+                <div class="overlay">
+                    <h3>YouTube Short</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Editkaro.in. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
